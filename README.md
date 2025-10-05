@@ -1,3 +1,8 @@
+# 🌐 Full-Stack Web Project
+
+A modern full-stack web application built with **React** for the frontend and **Laravel (PHP)** for the backend. This repository serves as a practical learning environment for building scalable, component-based UIs and robust server-side APIs.
+
+## 📦 Project Structure
 ## 🎯 Purpose
 
 This project was created to:
