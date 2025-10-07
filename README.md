@@ -1,24 +1,32 @@
-```markdown
-# 🌐 Full-Stack Web Project — React + Vite & Laravel
+`markdown
 
-A blazing-fast full-stack web application built with **React + Vite** on the frontend and **Laravel (PHP)** on the backend. This project is designed for developers who want to build scalable, modular, and production-ready web applications with modern tools and clean architecture.
+🚀 Live Demo
+
+🔗 مشاهده وب‌سایت اجرا شده
 
 ---
 
-## 📦 Project Structure
+🌐 Full-Stack Web Project — React + Vite & Laravel
 
-```
+A blazing-fast full-stack web application built with React + Vite on the frontend and Laravel (PHP) on the backend.  
+Designed for developers who want to build scalable, modular, and production-ready web applications with modern tools and clean architecture.
+
+---
+
+📦 Project Structure
+
+`
 Web-project/
 ├── frontend/       → React + Vite app (UI & client logic)
 ├── backend/        → Laravel API (server-side logic)
 ├── .gitignore
 ├── README.md
 └── ...
-```
+`
 
 ---
 
-## 🎯 Purpose
+🎯 Purpose
 
 This project was created to:
 
@@ -30,57 +38,57 @@ This project was created to:
 
 ---
 
-## 🚀 Getting Started (Git + VS Code)
+🚀 Getting Started (Git + VS Code)
 
-### 1. Clone the repository
+1. Clone the repository
 
-```bash
+`bash
 git clone https://github.com/mahdiklidari190/Web-project.git
 cd Web-project
-```
+`
 
-### 2. Open the project in Visual Studio Code
+2. Open the project in Visual Studio Code
 
-```bash
+`bash
 code .
-```
+`
 
-### 3. Install dependencies
+3. Install dependencies
 
-#### Frontend (React + Vite)
+Frontend (React + Vite)
 
-```bash
+`bash
 cd frontend
 npm install
 npm run dev
-```
+`
 
-#### Backend (Laravel)
+Backend (Laravel)
 
-```bash
+`bash
 cd backend
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
-```
+`
 
 ---
 
-## ⚛️ Frontend Highlights
+⚛️ Frontend Highlights
 
-- Built with **React** and powered by **Vite** for ultra-fast development
-- Supports **Hot Module Replacement (HMR)** for instant updates
-- Configured with **ESLint** and **Prettier** for clean code
-- Optional support for **TypeScript** and [`typescript-eslint`](https://typescript-eslint.io)
-- Easily extendable with libraries like **React Router**, **Axios**, and **Tailwind CSS**
+- Built with React and powered by Vite for ultra-fast development
+- Supports Hot Module Replacement (HMR) for instant updates
+- Configured with ESLint and Prettier for clean code
+- Optional support for TypeScript and typescript-eslint
+- Easily extendable with libraries like React Router, Axios, and Tailwind CSS
 
 ---
 
-## 🐘 Backend Highlights
+🐘 Backend Highlights
 
-- Built with **Laravel**, a powerful PHP framework
+- Built with Laravel, a powerful PHP framework
 - RESTful API structure with controllers, models, and migrations
 - Authentication-ready (Laravel Sanctum or Passport)
 - Database support via Eloquent ORM
@@ -88,38 +96,35 @@ php artisan serve
 
 ---
 
-## 🔗 API Integration
+🔗 API Integration
 
 Make sure your frontend connects to the backend via:
 
-```
+`
 http://localhost:8000/api
-```
+`
 
 Use Axios or Fetch to send requests from React components to Laravel routes.
 
 ---
 
-## 💡 Pro Tips
+💡 Pro Tips
 
 - Run frontend and backend in separate terminals for smooth development
-- Use tools like **Postman** or **Insomnia** to test your APIs
-- Add **JWT authentication** for secure user sessions
-- Deploy frontend to **Vercel** or **Netlify**, and backend to **Laravel Forge**, **Heroku**, or **Railway**
-- Use `.env` files to manage environment variables securely
+- Use tools like Postman or Insomnia to test your APIs
+- Add JWT authentication for secure user sessions
+- Deploy frontend to Vercel or Netlify, and backend to Laravel Forge, Heroku, or Railway
+- Use .env files to manage environment variables securely
 
 ---
 
-## 📜 License
+📜 License
 
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## 🧠 Author
-
-Developed by **Mahdi Klidari**  
-GitHub: [@mahdiklidari190](https://github.com/mahdiklidari190)
+This project is open-source and available under the MIT License.
 
 ---
-```
+
+🧠 Author
+
+Developed by Mahdi Klidari  
+GitHub: @mahdiklidari190
